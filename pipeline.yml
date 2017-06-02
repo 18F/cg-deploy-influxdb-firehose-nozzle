@@ -17,7 +17,7 @@ jobs:
         NOZZLE_METRICPREFIX: {{metric-prefix}}
         NOZZLE_INFLUXDB_USER: {{influxdb-user}}
         NOZZLE_UAAURL: {{uaa-url}}
-        NOZZLE_USERNAME: {{username}}
+        NOZZLE_USERNAME: influxdb-firehose-nozzle 
         NOZZLE_PASSWORD: {{password}}
         NOZZLE_INSECURESSLSKIPVERIFY: {{insecure-ssl-skip-verify}}
         NOZZLE_TRAFFICCONTROLLERURL: {{traffic-controller-url}}
